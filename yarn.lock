@@ -517,7 +517,6 @@ __metadata:
   resolution: "nw-8243@workspace:."
   dependencies:
     nw: "npm:^0.99.1"
-    store: "npm:^2.0.12"
   languageName: unknown
   linkType: soft
 
@@ -563,13 +562,6 @@ __metadata:
   version: 2.0.1
   resolution: "simple-invariant@npm:2.0.1"
   checksum: 10/a480b2ca9e9ede4e437d9606b38c4ae2fcf3be836a682687bef05810890f73cdbbc3c451c66a1de21fc44644a816118818ed4065ff16b691c25b7a16cdea7478
-  languageName: node
-  linkType: hard
-
-"store@npm:^2.0.12":
-  version: 2.0.12
-  resolution: "store@npm:2.0.12"
-  checksum: 10/2245bf29943fe59c2420fbe8ce19c8b86717353edcd6ec30a745cf2faee380b604777aa7f16344a15a8ff33ce689ce61dc95b4e6dc7c737101c00036c311ee7f
   languageName: node
   linkType: hard
 

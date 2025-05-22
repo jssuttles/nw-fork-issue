@@ -1,12 +1,11 @@
 {
-  "name": "nw-8243",
+  "name": "nw-fork-issue",
   "packageManager": "yarn@4.9.1",
   "main": "src/index.html",
   "scripts": {
     "start": "nw ."
   },
   "dependencies": {
-    "nw": "^0.99.1",
-    "store": "^2.0.12"
+    "nw": "^0.99.1"
   }
 }
