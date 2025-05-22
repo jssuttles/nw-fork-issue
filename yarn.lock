@@ -243,7 +243,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"axios@npm:^1.8.4":
+"axios@npm:^1.9.0":
   version: 1.9.0
   resolution: "axios@npm:1.9.0"
   dependencies:
@@ -632,22 +632,22 @@ __metadata:
   dependencies:
     dcmjs: "npm:^0.40.0"
     fs-extra: "npm:^11.3.0"
-    nw: "npm:0.98.2"
+    nw: "npm:^0.99.1"
   languageName: unknown
   linkType: soft
 
-"nw@npm:0.98.2":
-  version: 0.98.2
-  resolution: "nw@npm:0.98.2"
+"nw@npm:^0.99.1":
+  version: 0.99.1
+  resolution: "nw@npm:0.99.1"
   dependencies:
-    axios: "npm:^1.8.4"
+    axios: "npm:^1.9.0"
     commander: "npm:^13.1.0"
     semver: "npm:^7.7.1"
     tar: "npm:^7.4.3"
     yauzl-promise: "npm:^4.0.0"
   bin:
     nw: src/cli.js
-  checksum: 10/fe7237030ba0793ce2f55e75514974762c49500b0d1fd341b7177609863042b9923210101063f932d5aadf3ac71b62fc0c3b4c421cd24f8c7de92e391e8d81d9
+  checksum: 10/f814e32ec5a9cb257dee154cba49fe1397b6407ca83aa7ad33efd85762f0d7716a920d641478a385b2c25254b02dd8dac12f548e2876dc16db65f64b04f0e73f
   languageName: node
   linkType: hard
 
