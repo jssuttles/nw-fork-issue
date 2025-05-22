@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World!</title>
+</head>
+<body>
+<h1>Hello World!</h1>
+<p id="error"></p>
+<script>
+  try {
+    const store = require('store');
+    store.set('hello', 'world');
+    document.getElementById('error').innerText = 'Response to hello: ' + store.get('hello');
+    const win = nw.Window.get();
+    win.showDevTools();
+    setTimeout(() => {
+      window.chrome.runtime.reload();
+    }, 5000);
+
+  } catch (error) {
+    console.log(error);
+    document.getElementById('error').innerText = error;
+  }
+</script>
+</body>
+</html>
