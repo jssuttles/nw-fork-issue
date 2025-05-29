@@ -6,6 +6,7 @@
     "start": "nw ."
   },
   "dependencies": {
+    "archiver": "^7.0.1",
     "dcmjs": "^0.40.0",
     "fs-extra": "^11.3.0",
     "nw": "^0.99.1"
